@@ -1,0 +1,36 @@
+.container-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('/src/assets/backgroundLogin.png');
+}
+
+.welcome-text {
+  font-size: x-large;
+  color: #333;
+}
+
+.loading-text {
+  font-size: medium;
+  color: #666;
+}
+
+button{
+  font-family: sans-serif;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #635d5aa3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img{
+  padding: 20px 10px;
+  width: 250px;
+  height: 250px;
+}
+
